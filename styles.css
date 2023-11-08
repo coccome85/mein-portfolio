@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Work Sans", sans-serif;
+  font-size: 62, 5%;
+}
+header {
+  margin: 10px 40px 50px 40px;
+}
+main {
+  margin: 0px 40px 200px 40px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.speaker {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  margin-left: 20px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li {
+  margin: 10px;
+}
+p {
+  margin-left: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blueviolet;
+}
+h1 {
+  font-size: larger;
+  font-weight: normal;
+  margin: 40px 20px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 40px 20px;
+}
+
+.button-open {
+  display: flex;
+  background-color: black;
+  width: 170px;
+  height: 30px;
+  float: right;
+  box-shadow: 4px 0px 4px lightgrey;
+  border-radius: 4px;
+  
+}
+.button-open p {
+  color: white;
+  font-size: 13px;
+  align-self: center;
+}
+.button-open img {
+  width: 15px;
+  height: 15px;
+  align-self: center;
+}
+/* section img style */
+.img-section {
+  display: flex;
+  gap: 30px;
+  margin-top: 70px;
+  justify-content: space-evenly;
+}
+.img-white {
+  background: url(images/white-box.jpg) center / cover;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 4px 0px 5px black;
+}
+.img-room {
+  background: url(images/room.jpg) left / cover;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 4px 0px 5px black;
+}
+.img-blackwhite {
+  background: url(images/black-white.jpg) center / cover;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 4px 0px 5px black;
+}
+.img-section div p {
+  color: white;
+  margin-top: 40px;
+  text-shadow: 4px 4px 4px rgb(59, 58, 58);
+}
+.img-section div img {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  margin-left: 20px;
+  border: 3px solid lightgray;
+}
+footer {
+  text-align: center;
+  font-size: 10px;
+}
+@media (min-width: 0px) and (max-width: 601px) {
+  body {
+    font-size: 15px;
+    background-color: lightgray;
+  }
+}
+@media (min-width: 602px) and (max-width: 1100px) {
+  body {
+    font-size: 20px;
+    background-color: lightslategray;
+  }
+}
+@media (min-width: 1101px) {
+  body {
+    font-size: 25px;
+    background-color: grey;
+  }
+}
